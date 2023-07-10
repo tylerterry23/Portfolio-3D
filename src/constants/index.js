@@ -1,65 +1,71 @@
 import {
+    // icons
     mobile,
     backend,
     creator,
     web,
+
+    // technologies
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
+    python,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
+    mysql,
+    threejs,
+
+    // experiences
+    wmu,
+    tylogo,
+
+    // projects
+    summarizer,
     jobit,
     tripguide,
-    threejs,
-  } from "../assets";
+} from "../assets";
   
-  export const navLinks = [
+export const navLinks = [
     {
-      id: "about",
-      title: "About",
+        id: "about",
+        title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+        id: "work",
+        title: "Work",
     },
     {
-      id: "contact",
-      title: "Contact",
+        id: "contact",
+        title: "Contact",
     },
-  ];
+];
   
-  const services = [
+const services = [
     {
-      title: "Web Developer",
-      icon: web,
+        title: "Computer Scientist",
+        icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+        title: "Python Developer",
+        icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+        title: "Web Developer",
+        icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+        title: "Data Analyst",
+        icon: creator,
     },
-  ];
+];
   
-  const technologies = [
+const technologies = [
+    {
+      name: "Python",
+      icon: python,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -73,16 +79,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -93,10 +91,6 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -105,71 +99,120 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "MySQL",
+      icon: mysql,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
+];
   
-  const experiences = [
+const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        title: "B.A. in Computer Science",
+        company_name: "Western Michigan University",
+        icon: wmu,
+        iconBg: "#383E56",
+        date: "Sept 2018 - Aug 2023",
+        points: [
+        "Actively participated in code reviews, providing valuable feedback to enhance code quality and efficiency.",
+        "Facilitated effective communication and coordination among team members from different departments and disciplines.",      
+        "Completed projects and assignments with a high level of attention to detail and adherence to best practices.",
+        "Demonstrated professionalism, reliability, and a strong commitment to delivering exceptional results consistently within tight deadlines.",
+        ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        title: "Software Engineer Intern",
+        company_name: "WMU College of Engineering and Applied Sciences",
+        icon: wmu,
+        iconBg: "#E6DEDD",
+        date: "Aug 2022 - April 2023",
+        points: [
+        "Led the development of a comprehensive, scalable live dashboard web application, encompassing a homepage, contributor page, and documentation page.",
+        "Built a robust backend using Django and MySQL, ensuring efficient and secure CRUD operations, while also prioritizing a sleek, aesthetically pleasing, frontend.",
+        "Contributed to and ensured smooth operation with the admin UI (Tkinter) and tablet interface (Java).",
+        "Delivered web application on time and within budget, surpassing project objectives using Agile methodologies.",
+        ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        title: "Python Programming Tutor",
+        company_name: "Freelance",
+        icon: tylogo,
+        iconBg: "#383E56",
+        date: "Jan 2022 - Jan 2023",
+        points: [
+        "Delivered Python tutorials to a diverse student base, incorporating real-world examples, practical exercises, and advanced concepts.",
+        "Assisted students in programming and troubleshooting, providing guidance and support to overcome challenges and improve skills.",
+        "Convey complex programming concepts in a clear and understandable manner.",
+        "Consistency expand my knowledge and exposure to different programming challenges and scenarios.",
+        ],
+    },
+];
+
+const projects = [
+    {
+      name: "AI Article Summarizer",
+      description:
+        "Innovative web application utilizing OpenAI's GPT model API to generate AI-powered summaries of lengthy articles, providing a user-friendly solution for rapid content digestion.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
       ],
+      image: summarizer,
+      source_code_link: "https://github.com/tylerterry23/AI-Article-Summarizer",
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+      name: "Job IT",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
       ],
+      image: jobit,
+      source_code_link: "https://github.com/",
     },
-  ];
+    {
+      name: "AI Checkers",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+];
   
-  const testimonials = [
+const testimonials = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -194,72 +237,7 @@ import {
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
-  ];
+];
   
-  const projects = [
-    {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-  ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+
+export { services, technologies, experiences, testimonials, projects };

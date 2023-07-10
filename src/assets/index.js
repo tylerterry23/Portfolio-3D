@@ -7,26 +7,28 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+// Technologies
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import mysql from "./tech/mysql.svg";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import python from "./tech/python.svg";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+
+// Companies
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import wmu from "./company/wmu.png";
+import tylogo from "./company/tylogo.svg";
 
-import carrent from "./carrent.png";
+
+// Projects
+import summarizer from "./summarizer.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -40,23 +42,18 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+  mysql,
   git,
   html,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
-  redux,
+  python,
   tailwind,
-  typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
+  wmu,
+  tylogo,
+  summarizer,
   jobit,
   tripguide,
 };

@@ -43,6 +43,20 @@
   );
 }
 
+.blue-gradient {
+  background: #2563eb; /* Start color */
+  background: linear-gradient(-90deg, #2563eb 0%, rgba(0, 0, 255, 0) 100%); /* End color */
+  background: -webkit-linear-gradient(-90deg, #2563eb 0%, rgba(0, 0, 255, 0) 100%);
+}
+
+.blue-white-gradient {
+  background: "#2563eb";
+  background: linear-gradient(90.13deg, #2463eb 1.9%, #ffffff5e 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #3f74e5 1.9%, #ffffff5e 97.5%);
+}
+
+
+
 .green-pink-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
