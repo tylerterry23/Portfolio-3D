@@ -1,45 +1,61 @@
 import {
-    // icons
-    mobile,
-    backend,
-    creator,
-    web,
+    // General
+  logo,
+  backend,
+  creator,
+  mobile,
+  web,
+  github,
+  menu,
+  close,
 
-    // technologies
-    javascript,
-    html,
-    css,
-    reactjs,
-    python,
-    tailwind,
-    nodejs,
-    git,
-    mysql,
-    threejs,
+  // Technologies
+  bootstrap,
+  css,
+  django,
+  git,
+  html,
+  javascript,
+  mysql,
+  nodejs,
+  php,
+  python,
+  react,  
+  tailwindcss, 
 
-    // experiences
-    wmu,
-    tylogo,
+  // Companies
+  wmu,
+  tylogo,
+  eoc,
 
-    // projects
-    summarizer,
-    jobit,
-    tripguide,
+  // Projects
+  summarizer,
+  designer,
+  ecommerce,
+  jarvis,
 } from "../assets";
   
 export const navLinks = [
     {
-        id: "about",
-        title: "About",
+      id: "about",
+      title: "About",
     },
     {
-        id: "work",
-        title: "Work",
+      id: "experience",
+      title: "Experience",
     },
     {
-        id: "contact",
-        title: "Contact",
+      id: "projects",
+      title: "Projects",
     },
+    {
+      id: "contact",
+      title: "Contact",
+    },
+    {
+      id: "resume",
+      title: "Resume",
+    }
 ];
   
 const services = [
@@ -62,95 +78,113 @@ const services = [
 ];
   
 const technologies = [
-    {
-      name: "Python",
-      icon: python,
-    },
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "MySQL",
-      icon: mysql,
-    },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "React JS",
+    icon: react,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwindcss,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Git",
+    icon: git,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
 ];
   
 const experiences = [
-    {
-        title: "B.A. in Computer Science",
-        company_name: "Western Michigan University",
-        icon: wmu,
-        iconBg: "#383E56",
-        date: "Sept 2018 - Aug 2023",
-        points: [
-        "Actively participated in code reviews, providing valuable feedback to enhance code quality and efficiency.",
-        "Facilitated effective communication and coordination among team members from different departments and disciplines.",      
-        "Completed projects and assignments with a high level of attention to detail and adherence to best practices.",
-        "Demonstrated professionalism, reliability, and a strong commitment to delivering exceptional results consistently within tight deadlines.",
-        ],
-    },
-    {
-        title: "Software Engineer Intern",
-        company_name: "WMU College of Engineering and Applied Sciences",
-        icon: wmu,
-        iconBg: "#E6DEDD",
-        date: "Aug 2022 - April 2023",
-        points: [
-        "Led the development of a comprehensive, scalable live dashboard web application, encompassing a homepage, contributor page, and documentation page.",
-        "Built a robust backend using Django and MySQL, ensuring efficient and secure CRUD operations, while also prioritizing a sleek, aesthetically pleasing, frontend.",
-        "Contributed to and ensured smooth operation with the admin UI (Tkinter) and tablet interface (Java).",
-        "Delivered web application on time and within budget, surpassing project objectives using Agile methodologies.",
-        ],
-    },
-    {
-        title: "Python Programming Tutor",
-        company_name: "Freelance",
-        icon: tylogo,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-        "Delivered Python tutorials to a diverse student base, incorporating real-world examples, practical exercises, and advanced concepts.",
-        "Assisted students in programming and troubleshooting, providing guidance and support to overcome challenges and improve skills.",
-        "Convey complex programming concepts in a clear and understandable manner.",
-        "Consistency expand my knowledge and exposure to different programming challenges and scenarios.",
-        ],
-    },
+  {
+      title: "B.S. in Computer Science",
+      company_name: "Western Michigan University",
+      icon: wmu,
+      iconBg: "#E6DEDD",
+      date: "Sept 2018 - June 2023",
+      points: [
+          "Coursework includes Data Structures, Algorithms, Web Development, Machine Learning, Secure Systems, and more.",
+          "Acquired a comprehensive understanding of multiple programming languages and technical tools.",
+          "Engaged in hands-on projects and assignments to apply theoretical knowledge in real-world scenarios.",
+          "Fostered strong technical communication and project management skills through diverse coursework.",
+      ],
+  },
+  {
+      title: "Python Programming Tutor",
+      company_name: "Freelance",
+      icon: tylogo,
+      iconBg: "#383E56",
+      date: "June 2020 - July 2022",
+      points: [
+          "Provided tutorials and adaptive teaching to over 100 students, raising comprehension by 43%.",
+          "Assisted students in development, debugging, and problem-solving.",
+          "Promoted hands-on learning with real-world examples and hands-on tasks.",
+      ],
+  },
+  {
+      title: "Software Engineer Intern",
+      company_name: "WMU College of Engineering and Applied Sciences",
+      icon: wmu,
+      iconBg: "#E6DEDD",
+      date: "Aug 2022 - April 2023",
+      points: [
+          "Contributed to the design of an Industry 4.0 manufacturing simulation.",
+          "Led the creation of a software suite managing over 20 processes.",
+          "Engaged in an 18-member team, leveraging Agile, TDD, and SWOT Analysis.",
+      ],
+  },
+  {
+      title: "Software Engineer (Part-Time)",
+      company_name: "Elley Orem Collection",
+      icon: eoc, // This icon needs to be defined or replaced accordingly
+      iconBg: "#383E56",
+      date: "Jan 2021 - Present",
+      points: [
+          "Spearheaded the WordPress transition from B2B to B2C, amplifying consumer engagement by 50%.",
+          "Implemented a dynamic storage solution, hastening data retrieval by 20%.",
+          "Collaborated with design teams for software strategies and integrated React, Angular, and Django.",
+      ],
+  },
 ];
 
 const projects = [
     {
       name: "AI Article Summarizer",
       description:
-        "Innovative web application utilizing OpenAI's GPT model API to generate AI-powered summaries of lengthy articles, providing a user-friendly solution for rapid content digestion.",
+        "Innovative web application utilizing OpenAI's GPT model API to generate AI-powered summaries of lengthy articles, providing a user-friendly solution for rapid content digestion. The application also supports history tracking, allowing users to view their past summaries.",
       tags: [
         {
           name: "react",
@@ -169,28 +203,28 @@ const projects = [
       source_code_link: "https://github.com/tylerterry23/AI-Article-Summarizer",
     },
     {
-      name: "Job IT",
+      name: "3D Product Designer",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This web application supports real-time customization of model attributes, including color changes, image uploads for logos and textures, AI-driven generation, and feature toggling. Users can also download their customized 3D designs, emphasizing the potential scope for a SaaS platform.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "threejs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "dalle",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: designer,
       source_code_link: "https://github.com/",
     },
     {
-      name: "AI Checkers",
+      name: "E-Commerce Website",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -207,7 +241,28 @@ const projects = [
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: ecommerce,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "J.A.R.V.I.S. Inspired AI Assistant",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jarvis,
       source_code_link: "https://github.com/",
     },
 ];

@@ -85,7 +85,7 @@ const Works = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor maiores delectus, sunt, laudantium minima sit qui expedita tempore doloremque voluptatem deserunt iure laborum officiis rerum sit, quasi enim deleniti odit vero nostrum itaque, quos error at officia sapiente ipsa cumque expedita fugit.
+          Coupling my deep passion for learning with a hands-on approach, I continually broaden my skillset through a combination of academic studies, bootcamps, and tutorials, as well as embarking on entirely self-guided projects. The projects showcased here represent a diversity of learning pathways and encompass some of my proudest achievements to date. Reflecting both the depth and breadth of my experience, these works underline my tenacity, curiosity, and perpetual drive to embrace new challenges.
         </motion.p>
       </div>
 
@@ -103,4 +103,4 @@ const Works = () => {
   )
 }
 
-export default sectionWrapper(Works, '')
+export default sectionWrapper(Works, 'projects')

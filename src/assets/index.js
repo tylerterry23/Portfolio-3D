@@ -6,33 +6,36 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import resume from "./resume.pdf";
 
 // Technologies
+import bootstrap from "./tech/bootstrap.png";
 import css from "./tech/css.png";
-import mysql from "./tech/mysql.svg";
+import django from "./tech/django.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import mysql from "./tech/mysql.png";
 import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import python from "./tech/python.svg";
-import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
-
+import php from "./tech/php.png";
+import python from "./tech/python.png";
+import react from "./tech/react.png";
+import tailwindcss from "./tech/tailwindcss.png";
 
 // Companies
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import wmu from "./company/wmu.png";
 import tylogo from "./company/tylogo.svg";
-
+import eoc from "./company/eoc.png";
 
 // Projects
 import summarizer from "./summarizer.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import designer from "./designer.png";
+import ecommerce from "./ecommerce.png";
+import jarvis from "./jarvis.png";
 
+// Exporting
 export {
+  // General
   logo,
   backend,
   creator,
@@ -41,19 +44,30 @@ export {
   github,
   menu,
   close,
+  resume,
+
+  // Technologies
+  bootstrap,
   css,
-  mysql,
+  django,
   git,
   html,
   javascript,
+  mysql,
   nodejs,
-  reactjs,
+  php,
   python,
-  tailwind,
-  threejs,
+  react,  
+  tailwindcss,  
+
+  // Companies
   wmu,
   tylogo,
+  eoc,
+
+  // Projects
   summarizer,
-  jobit,
-  tripguide,
+  designer,
+  ecommerce,
+  jarvis,
 };
