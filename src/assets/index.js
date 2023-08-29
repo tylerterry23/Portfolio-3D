@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import demo from "./demo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import resume from "./resume.pdf";
@@ -32,6 +33,7 @@ import summarizer from "./summarizer.png";
 import designer from "./designer.png";
 import ecommerce from "./ecommerce.png";
 import jarvis from "./jarvis.png";
+import portfolio from "./portfolio.png";
 
 // Exporting
 export {
@@ -42,6 +44,7 @@ export {
   mobile,
   web,
   github,
+  demo,
   menu,
   close,
   resume,
@@ -70,4 +73,5 @@ export {
   designer,
   ecommerce,
   jarvis,
+  portfolio
 };
